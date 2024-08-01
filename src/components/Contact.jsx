@@ -1,4 +1,5 @@
 import React from "react";
+import Button from "../layouts/Button";
 import img from "../assets/img/contactImg.jpg";
 
 const Contact = () => {
@@ -36,6 +37,10 @@ const Contact = () => {
               id="userNumber"
               placeholder="Enter your number"
             />
+          </div>
+
+          <div className="flex flex-row justify-center">
+            <Button title="Send Message" />
           </div>
         </form>
 
